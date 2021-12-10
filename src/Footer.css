@@ -1,0 +1,22 @@
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #131921;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__logo {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  object-fit: contain;
+  width: 100px;
+  padding-top: 15px;
+  /* margin: 20px; */
+}
+
+.footer__logo:hover {
+  transform: scale(0.98);
+}

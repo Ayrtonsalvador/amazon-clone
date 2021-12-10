@@ -1,0 +1,43 @@
+.orders {
+  padding: 20px 80px;
+}
+
+.orders__h1 {
+  margin: 30px 0;
+}
+
+.orders__btn {
+  cursor: pointer;
+  margin-left: 18px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.orders__btn:active {
+  cursor: pointer;
+  background: #e6b948;
+}
+
+.orders__emptyDiv {
+  padding: 20px;
+  border: 1px solid lightgray;
+  height: 28rem;
+  margin-bottom: 50px;
+}
+
+.orders__imgDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.orders__noOrder__Img {
+  height: 400px;
+  opacity: 0.5;
+  filter: saturate(50%);
+}
